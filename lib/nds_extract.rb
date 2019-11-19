@@ -39,5 +39,5 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  directors_totals(source).values.inject { |a, b| a + b}
+  directors_totals(source).values.inject { |a, b| a + b }
 end
